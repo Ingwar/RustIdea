@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" assert-keyword="true" jdk-15="true" project-jdk-name="IDEA IC-133.331" project-jdk-type="IDEA JDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$/../coursera/reactive_programming/actorbintree" value="1385967338000" />
+        <entry key="$PROJECT_DIR$/../coursera/reactive_programming/quickcheck" value="1386084653916" />
+        <entry key="$PROJECT_DIR$/../coursera/reactive_programming/simulations" value="1386085001270" />
+        <entry key="$PROJECT_DIR$/../zeezoo_play" value="1385738315963" />
+      </map>
+    </option>
+  </component>
+</project>
+
