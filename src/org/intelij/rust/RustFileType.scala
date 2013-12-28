@@ -1,8 +1,25 @@
 package org.intelij.rust
 
-/**
- * Created by ingwar on 28.12.13.
- */
-class RustFileType {
+import com.intellij.openapi.fileTypes.LanguageFileType
+import javax.swing.Icon
 
+class RustFileType  extends LanguageFileType(RustLanguage.INSTANCE) {
+
+  import RustFileType._
+
+  override def getName: String = "Rust"
+
+  override def getDescription: String = "Rust language file"
+
+  override def getDefaultExtension: String = DEFAULT_EXTENSION
+
+  override def getIcon: Icon = null
+
+}
+
+object RustFileType {
+
+  val DEFAULT_EXTENSION = "rs"
+
+  val INSTANCE = new RustFileType
 }
