@@ -1,4 +1,4 @@
-package org.intelij.rust
+package org.intellij.rust
 
 import com.intellij.openapi.fileTypes.{FileTypeConsumer, FileTypeFactory}
 
