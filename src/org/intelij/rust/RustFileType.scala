@@ -9,7 +9,7 @@ class RustFileType  extends LanguageFileType(RustLanguage.INSTANCE) {
 
   override def getName: String = "Rust"
 
-  override def getDescription: String = "Rust language file"
+  override def getDescription: String = "Rust file"
 
   override def getDefaultExtension: String = DEFAULT_EXTENSION
 
