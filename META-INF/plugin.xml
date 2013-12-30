@@ -11,7 +11,7 @@
   <change-notes><![CDATA[
           <p>0.1</p>
           <ul>
-            <li>Initial release<li>
+            <li>Initial release</li>
           <ul>
       ]]>
   </change-notes>
@@ -36,6 +36,7 @@
   </actions>
 
   <extensions defaultExtensionNs="com.intellij">
+      <fileTypeFactory implementation="org.intellij.rust.RustFileTypeFactory"/>
     <!-- Add your extensions here -->
   </extensions>
 </idea-plugin>
