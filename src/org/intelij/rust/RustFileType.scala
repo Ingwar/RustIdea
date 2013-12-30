@@ -13,7 +13,7 @@ class RustFileType  extends LanguageFileType(RustLanguage.INSTANCE) {
 
   override def getDefaultExtension: String = DEFAULT_EXTENSION
 
-  override def getIcon: Icon = null
+  override def getIcon: Icon = Icons.fileIcon
 
 }
 
